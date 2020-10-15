@@ -3,7 +3,11 @@
 <body>
 <h1>這是修改頻道的view</h1>
 
-<a href="youtubers">回到youtubers的view</a>
+頻道名稱：{{ $name }}<br/>
+頻道人數：{{ $guys }}<br/>
+頻道觀看數：{{ $views }}<br/>
+
+<a href="/channels">回到頻道的View</a>
 </body>
 </head>
 </html>

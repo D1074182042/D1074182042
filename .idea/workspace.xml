@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d181c022-57b3-4152-ab7e-77c8d1f9d181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/channel/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/channel/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/channel/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/channel/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hello.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/youtuber/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/youtuber/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/youtuber/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/youtuber/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/channels/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/channels/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/channels/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/channels/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602122814453</updated>
       <workItem from="1602122830897" duration="33000" />
-      <workItem from="1602126915788" duration="5493000" />
+      <workItem from="1602126915788" duration="5659000" />
+      <workItem from="1602740400420" duration="6655000" />
     </task>
     <servers />
   </component>
@@ -183,9 +183,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1602127001271">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1602740401465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602127001271" />
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602740401465" />
   </component>
 </project>

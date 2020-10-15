@@ -3,7 +3,7 @@
 <body>
 <h1>這是顯示單筆youtubers的view</h1>
 
-<a href="channels">回到頻道的view</a>
+<a href="/youtubers">回到Youber的View</a>
 </body>
 </head>
 </html>

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ChannelsController;
+use App\Http\Controllers\YoutubersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,38 +18,30 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-/*---------------------------------------------------------*/
+/*----------------------Channels-----------------------*/
 //查詢
-Route::get('channels', function () {
-    return view('channels.index');
-});
+/*Route::get('channels', function () {
+    return view('channels.index');*/
+Route::get('channels',[ChannelsController::class,'index']);
 //新增表單
-Route::get('channels/create', function () {
-    return view('channels.create');
-});
-//顯示單筆頻道資料
-Route::get('channels/{id}', function ($id) {
-    return view('channels.show');
-})->where('id', '[0-9]+');
-//修改表單
-Route::get('channels/{id}/edit', function ($id) {
-    return view('channels.edit');
-})->where('id', '[0-9]+');
+Route::get('channels/create',[ChannelsController::class,'create']);
 
-/*--------------------------------------------------------------*/
-//查詢
-Route::get('youtubers', function () {
-    return view('youtubers.index');
-});
-//新增表單
-Route::get('youtubers/create', function () {
-    return view('youtubers.create');
-});
-//顯示單筆youtuber資料
-Route::get('youtubers/{id}', function ($id) {
-    return view('youtubers.show');
-})->where('id', '[0-9]+');
+//顯示單筆頻道資料
+Route::get('channels/{id}',[ChannelsController::class,'show'])
+->where('id', '[0-9]+');
 //修改表單
-Route::get('youtubers/{id}/edit', function ($id) {
-    return view('youtubers.edit');
-})->where('id', '[0-9]+');
+Route::get('channels/{id}/edit',[ChannelsController::class,'edit'])
+->where('id', '[0-9]+');
+
+/*-----------------------Youtubers--------------------------*/
+//查詢
+Route::get('youtubers', [YoutubersController::class,'index']);
+//新增表單
+Route::get('youtubers/create', [YoutubersController::class,'create']);
+
+//顯示單筆youtuber資料
+Route::get('youtubers/{id}', [YoutubersController::class,'show'])
+->where('id', '[0-9]+');
+//修改表單
+Route::get('youtubers/{id}/edit', [YoutubersController::class,'edit'])
+->where('id', '[0-9]+');

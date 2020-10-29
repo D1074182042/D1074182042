@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d181c022-57b3-4152-ab7e-77c8d1f9d181" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/D1074182042.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/D1074182042.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_071732_create_channels_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/ChannelsTableSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,6 +180,10 @@
       <workItem from="1603349546040" duration="323000" />
       <workItem from="1603349879808" duration="896000" />
       <workItem from="1603350853785" duration="2279000" />
+      <workItem from="1603944038388" duration="250000" />
+      <workItem from="1603944321137" duration="94000" />
+      <workItem from="1603944675275" duration="55000" />
+      <workItem from="1603944885144" duration="10463000" />
     </task>
     <servers />
   </component>
@@ -188,17 +191,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603352708269">
+    <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603943678525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603352708269" />
+    <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603943678525" />
+    <state x="348" y="292" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603946944597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="348" y="292" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603946944597" />
+    <state x="940" y="266" key="FileChooserDialogImpl" timestamp="1603944358113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="940" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603944358113" />
     <state x="776" y="442" key="NewPhpFileDialog" timestamp="1603341194355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603341194355" />
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1603350854307">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1603944885155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603350854307" />
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603944885155" />
   </component>
 </project>

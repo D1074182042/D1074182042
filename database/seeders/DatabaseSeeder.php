@@ -13,7 +13,8 @@ class phpDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(ChannelsTableSeeder::class);
+        $this->call(channelsTableSeeder::class);
+        $this->call(youtubersTableSeeder::class);
         // \App\Models\User::factory(10)->create();
     }
 }

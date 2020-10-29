@@ -14,11 +14,11 @@ class CreateChannelsTable extends Migration
     public function up()
     {
         Schema::create('channels', function (Blueprint $table) {
-            $table->id();
-            $table->string('name')->comment('頻道名稱');
-            $table->string('zone')->comment('類別');
-            $table->string('fans')->comment('粉絲數');
-            $table->string('views')->comment('觀看數');
+            $table->id()->comment('編號');
+            $table->string('c_name')->comment("頻道名稱");
+            $table->string('category')->comment('類別');
+            $table->string('fans')->comment('粉絲數(萬)');
+            $table->string('views')->comment('平均觀看量(萬)');
             $table->timestamps();
         });
     }

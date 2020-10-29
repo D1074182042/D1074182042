@@ -18,7 +18,12 @@ class ChannelsController extends Controller
 
     public function show($id)
     {
-        $data = [];
+        $temp = channel::find($id);
+        if($temp == null)
+            return"NO record";
+
+        $channel = $temp->toArray();
+        /*$data = [];
         if ($id == 5)
         {
             $data['name'] = "123";
@@ -29,7 +34,8 @@ class ChannelsController extends Controller
             $data['guys'] = "123";
             $data['views'] = "123";
         }
-        return view('channels.show', $data);
+        return view('channels.show', $data);*/
+        return view('channels.show',$temp);
 
     }
     public function edit($id)

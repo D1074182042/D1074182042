@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\channel;
 use Illuminate\Http\Request;
 
 class ChannelsController extends Controller
@@ -35,7 +36,7 @@ class ChannelsController extends Controller
             $data['views'] = "123";
         }
         return view('channels.show', $data);*/
-        return view('channels.show',$temp);
+        return view('channels.show',$channel);
 
     }
     public function edit($id)

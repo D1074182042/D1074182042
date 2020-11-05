@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Player;
+use App\Models\youtuber;
+use Carbon\Carbon;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
 class YoutubersController extends Controller
@@ -9,40 +13,47 @@ class YoutubersController extends Controller
     //
     public function index()
     {
-        return view('youtubers.index');
+       $youtuber = Youtuber::all();
+
+        return view('youtubers.index',['youtubers'=>$youtuber]);
+
     }
     public function create()
     {
-        return view('youtubers.create');
+        $youtuber = youtuber::create([
+            'yt_name'=>'陳彥達',
+            'c_ID'=>3,
+            'year'=>12,
+            'education'=>'中鋒',
+            'country'=>'台灣',
+            'created_at'=>Carbon::now(),
+            'updated_at'=>Carbon::now()]);
+        return view('youtubers.create', $youtuber->toArray());
     }
     public function show($id)
     {
-        $data = [];
-        if ($id == 5)
-        {
-            $data['name'] = "123";
-            $data['country'] = "123";
-            $data['position'] = "123";
-        } else {
-            $data['name'] = "123";
-            $data['country'] = "123";
-            $data['position'] = "123";
-        }
-        return view('youtubers.show')->with('youtuber_id', $id);
+        $temp = youtuber::where('education', '國立臺灣藝術大學')->first();
+        if ($temp == null)
+            return "No record";
+
+        $youtuber = $temp->toArray();
+
+        return view('youtubers.show', $youtuber);
     }
     public function edit($id)
     {
         if ($id == 5)
         {
-            $youtuber_name = "";
-            $youtuber_country = "";
-            $youtuber_position = "";
+            $yt_name = "";
+            $education = "";
+            $country = "";
         } else {
-            $youtuber_name = "";
-            $youtuber_country = "";
-            $youtuber_position = "";
+            $yt_name = "";
+            $education = "";
+            $country = "";
+
         }
-        $data = compact('youtuber_name', 'youtuber_country', 'youtuber_position');
+        $data = compact('yt_name', 'education', 'country');
 
         return view('youtubers.edit', $data);
     }

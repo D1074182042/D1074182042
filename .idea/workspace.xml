@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d181c022-57b3-4152-ab7e-77c8d1f9d181" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_22_071732_create_channels_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/ChannelsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/YoutubersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/YoutubersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/youtuber.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/youtuber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/channelsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/channelsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/youtubersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/youtubersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +187,9 @@
       <workItem from="1603944038388" duration="250000" />
       <workItem from="1603944321137" duration="94000" />
       <workItem from="1603944675275" duration="55000" />
-      <workItem from="1603944885144" duration="10463000" />
+      <workItem from="1603944885144" duration="10574000" />
+      <workItem from="1603957579901" duration="102000" />
+      <workItem from="1604551023099" duration="13160000" />
     </task>
     <servers />
   </component>
@@ -203,13 +209,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="940" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603944358113" />
+    <state x="990" y="338" key="NewPhpClassDialog" timestamp="1604563262009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="990" y="338" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604563262009" />
     <state x="776" y="442" key="NewPhpFileDialog" timestamp="1603341194355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603341194355" />
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1603944885155">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1604551068632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603944885155" />
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604551068632" />
   </component>
 </project>

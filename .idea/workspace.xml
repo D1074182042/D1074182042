@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d181c022-57b3-4152-ab7e-77c8d1f9d181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/D1074182042.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/D1074182042.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/YoutubersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/YoutubersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/youtuber.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/youtuber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/channelsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/channelsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/youtubersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/youtubersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/youtubers/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/youtubers/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/hello.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +136,7 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iZl5LycLEBcsqnUebi125mPfjl" />
@@ -189,7 +189,11 @@
       <workItem from="1603944675275" duration="55000" />
       <workItem from="1603944885144" duration="10574000" />
       <workItem from="1603957579901" duration="102000" />
-      <workItem from="1604551023099" duration="13160000" />
+      <workItem from="1604551023099" duration="13702000" />
+      <workItem from="1605148806816" duration="74000" />
+      <workItem from="1605760451787" duration="38000" />
+      <workItem from="1605760745966" duration="608000" />
+      <workItem from="1606367734006" duration="2605000" />
     </task>
     <servers />
   </component>
@@ -217,9 +221,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603341194355" />
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1604551068632">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1606367736991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604551068632" />
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606367736991" />
   </component>
 </project>
